@@ -1,0 +1,9 @@
+.ipynb_checkpoints/*
+MANIFEST
+dist/
+*.pyc
+build/*
+BatchNotebook.iml
+.idea/*
+batch_notebook/tests/sample_notebook_executed.ipynb
+batch_notebook/tests/sample_notebook_populated_output.ipynb
