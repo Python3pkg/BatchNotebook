@@ -64,8 +64,8 @@ See also
 --------
 
 This library was based off of:
-`this <https://gist.github.com/minrk/2620735>`_ and
-`this <https://gist.github.com/davidshinn/6110231/raw/bb7efbac56e8c007eb24f5dc057896b7a07db1bb/ipnbdoctest.py>`_.
+`minrk's script <https://gist.github.com/minrk/2620735>`_ and
+`davidshinn's script <https://gist.github.com/davidshinn/6110231/raw/bb7efbac56e8c007eb24f5dc057896b7a07db1bb/ipnbdoctest.py>`_.
 
 Acknowledgements
 ----------------
