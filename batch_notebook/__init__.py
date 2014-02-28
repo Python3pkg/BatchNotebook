@@ -20,8 +20,13 @@ In particular, see:
 2. https://gist.github.com/davidshinn/6110231/raw/bb7efbac56e8c007eb24f5dc057896b7a07db1bb/ipnbdoctest.py
 """
 from __future__ import print_function
+from warnings import warn
 
 import io
+
+warn("""!!! This library is deprecated.
+Use runipy instead.
+See: https://github.com/paulgb/runipy""", DeprecationWarning)
 
 try:
     from Queue import Empty  # Python 2.X

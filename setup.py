@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='BatchNotebook',
-    version='0.0.2',
+    version='0.0.3',
     packages=['batch_notebook'],
     license='BSD-new license',
     description='Tools for running an IPython notebook in batch mode.',

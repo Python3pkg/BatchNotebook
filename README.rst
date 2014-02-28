@@ -2,6 +2,18 @@
 BatchNotebook
 =============
 
+DO NOT USE THIS LIBRARY
+-----------------------
+
+`Matthias Bussonnier <https://github.com/Carreau>`_ was kind enough to
+`point out <https://github.com/paulgb/runipy/issues/17>`_ that
+`Paul Butler et al <https://github.com/paulgb>`_ had written a library runipy
+that precede mine and is more mature. Consequently, this library,
+`BatchNotebook <https://github.com/jbn/BatchNotebook>`_ is deprecated.
+
+Please use: `runipy <https://github.com/paulgb/runipy/>`_ instead.
+
+
 Why Use This Library
 --------------------
 
