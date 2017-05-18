@@ -19,7 +19,7 @@ In particular, see:
 1. https://gist.github.com/minrk/2620735
 2. https://gist.github.com/davidshinn/6110231/raw/bb7efbac56e8c007eb24f5dc057896b7a07db1bb/ipnbdoctest.py
 """
-
+from __future__ import print_function
 from warnings import warn
 
 import io
@@ -29,7 +29,7 @@ Use runipy instead.
 See: https://github.com/paulgb/runipy""", DeprecationWarning)
 
 try:
-    from queue import Empty  # Python 2.X
+    from Queue import Empty  # Python 2.X
 except ImportError:
     from queue import Empty  # Python 3.X
 
@@ -67,7 +67,7 @@ def run_cell(km, cell, timeout=20):
             out.stream = content['name']
             out.txt = content['data']
         elif msg_type in ('display_data', 'pyout'):
-            for mime, data in list(content['data'].items()):
+            for mime, data in content['data'].items():
                 attr = mime.split('/')[-1].lower()
                 attr = attr.replace('+xml', '').replace('plain', 'text')
                 setattr(out, attr, data)
